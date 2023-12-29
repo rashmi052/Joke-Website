@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/flat-world-emoji-day-background-with-emoticons_23-2149427423.jpg");
+}
+
+body {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  background: #e95858;
+  font-size: 50px;
+  width: max-content;
+}
+
+#button {
+  height: 30px;
+  width: max-content;
+  color: white;
+  background: green;
+  border-radius: 10px;
+  border-color: transparent;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+
+}
+
+#simpleDiv {
+  width: 300px;
+  border: 3px double #ee2b2b;
+  padding: 50px;
+  margin: auto;
+  font-size: 40px;
+  border-radius: 25px;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+
+
+}
+
+@keyframes example {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: #f2bf78;
+
+  }
+}
